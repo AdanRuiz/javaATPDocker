@@ -8,7 +8,7 @@ Java ATP Docker example
 2. Create table:
 CREATE TABLE TODOUSER.sometable (id NUMBER GENERATED ALWAYS AS IDENTITY, description VARCHAR2(4000), creation_ts TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP, done NUMBER(1,0) , PRIMARY KEY (id));
 3. Identify TNS Name
-4. Download Wallet
+4. Download Wallet (Op1: from Mtdrspring, Op2: From OCI ATP web interface)
 
 ## App setup
 1. Download/Clone project
